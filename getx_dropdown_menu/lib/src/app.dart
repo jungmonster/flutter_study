@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:getx_dropdown_menu/components/dropdown_button_widget.dart';
+import 'package:getx_dropdown_menu/components/popup_menu_button_widget.dart';
 import 'package:getx_dropdown_menu/controller/dropdown_button_controller.dart';
 import 'package:getx_dropdown_menu/pages/default_page.dart';
 import 'package:getx_dropdown_menu/pages/page1.dart';
@@ -17,7 +18,8 @@ class App extends GetView<DropdownButtonController> {
       ),
       body: Column(
         children: [
-          DropdownButtonWidget(),
+          // DropdownButtonWidget(),
+          PopupMenuButtonWidget(),
           Expanded(
             child: Obx(() {
               switch (controller.currentItem.value) {
