@@ -1,4 +1,4 @@
-import 'package:copy_daagnmarket/pages/home.dart';
+import 'package:copy_daagnmarket/pages/app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         // primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: App(),
     );
   }
 }
